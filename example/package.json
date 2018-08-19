@@ -1,0 +1,21 @@
+{
+  "name": "apexcharts-react-example",
+  "version": "1.0.0",
+  "description": "Example app for apexcharts-react",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel src/index.html ",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "apexcharts-react": "^0.0.11",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "parcel-bundler": "^1.9.7",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
