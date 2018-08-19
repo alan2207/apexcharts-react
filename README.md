@@ -13,7 +13,13 @@ Install the package:
 import React from 'react';
 import Chart from 'apexcharts-react';
 
+const options = {...} // check out the docs
+
 class ExampleComponent extends React.Component() {
+  this.state = {
+    options
+  }
+
   render() {
     return (
       <div className="App">
@@ -35,4 +41,4 @@ There is also an example app inside the `example` folder.
 
 - `expose` - func - function that exposes the chart instance to the parent component in order to enable user to call the instance methods from the outside of the chart component
 
-For more info about how to create chart check out the official [docs](https://apexcharts.com/).
+For more info on how to create charts check out the official [docs](https://apexcharts.com/).
