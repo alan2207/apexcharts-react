@@ -1,5 +1,7 @@
 # Apexcharts-React
 
+[![NpmVersion](https://img.shields.io/badge/npm-1.0.0-blue.svg)](https://www.npmjs.com/package/apexcharts-react)
+
 Unofficial react wrapper for [apexcharts.js](https://apexcharts.com/)
 
 ### Getting Started:
