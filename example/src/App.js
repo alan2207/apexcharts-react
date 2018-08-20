@@ -6,7 +6,7 @@ class App extends Component {
   state = {
     options
   };
-  // restart data to to initial values
+  // restart data to the initial values
   handleRestart = () => {
     this.chart.updateOptions(
       {
